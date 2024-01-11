@@ -12,15 +12,9 @@ body{
 h1 {
     text-align: center;
     padding-top: 150px;
+    padding-bottom: 50px;
     color: white ;
-}
-
-h2 {
-    text-align: center;
-    margin-top: 10px;
-    margin-bottom: 50px;
-    color: white;
-    font-size: 38px;
+    font-size: 50px;
 }
 
 /* DECORANDO CALCULADORA */
@@ -90,7 +84,7 @@ input[type="button"]:last-child {
     z-index: -4;
     top: 0;
     width: 100%;
-    height: 50.75em;
+    height: 100%;
     background-position-x: center;
     overflow: hidden;
 }
@@ -212,6 +206,14 @@ span:nth-child(10) {
     left: initial;
     animation-delay: 1.3s;
     animation-duration: 3s;
+}
+
+
+@media(max-width: 1300px){
+    h1{
+        padding-top: 70px;
+        font-size: 50px;
+    }
 }
 
 /* FIN DEL CSS */
